@@ -1,0 +1,83 @@
+body {
+    font-family: 'Arial, sans-serif';
+    background-color: #f9f9f9;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to right, #ffcccb, #ff99cc, #ff66cc, #ff33cc);
+}
+
+.page {
+    display: none;
+    text-align: center;
+    padding: 20px;
+}
+
+#welcome-page {
+    display: block;
+    background-color: #ae8eb4;
+    color: rgb(128, 30, 30);
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#welcome-page h1 {
+    font-family: 'Pacifico', cursive;
+}
+
+#welcome-page button {
+    background-color: white;
+    color: #131111;
+    border: 2px solid #ffcccb;
+    padding: 10px 20px;
+    font-size: 18px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: 20px;
+    font-family: 'Pacifico', cursive;
+}
+
+#welcome-page button:hover {
+    background-color: #ffcccb;
+    color: white;
+}
+
+.hidden {
+    display: none;
+}
+
+header {
+    background-color: #ffcccb;
+    color: white;
+    padding: 20px 0;
+}
+
+h1, h2 {
+    font-family: 'Pacifico', cursive;
+}
+
+section {
+    padding: 20px;
+    margin: 20px;
+    background-color: #ffffff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+footer {
+    background-color: #615454;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
+
+.carousel{
+    width: 1px;
+    height: 3px;
+}
+.small-image {
+    max-width: 300px; /* Limits the width to 300 pixels */
+    height: auto; /* Maintains aspect ratio */
+}
